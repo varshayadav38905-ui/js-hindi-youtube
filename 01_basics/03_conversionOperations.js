@@ -65,7 +65,7 @@ and if the last one is string then the first numbers are treated as numbers
 //console.log(+true); // this will give us "1"
 //console.log(+"");  //  this will give 0
 
-let num1, num2, num3,
+let num1, num2, num3;
 num1 = num2 = num3 = 2 + 2;
 
 let gameCounter = 100
