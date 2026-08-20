@@ -1,5 +1,5 @@
 const tinderUser = new Object()  //singeton object
-const tinderUser ={}             //non singleton object
+           
 tinderUser.id = "12345kdjf"
 tinderUser.name= "varsha"
 tinderUser.isLoggedIn = false

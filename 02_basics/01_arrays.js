@@ -25,15 +25,15 @@ console.log(typeof newArr);
 
 
 // slice and splice
- console.log("A" , myArr);
-const myn1 = myArr.slice(1 , 3) 
+ console.log("A" , myHeros);
+const myn1 = myHeros.slice(0 , 1)    // rule : slice(start, end) → start included, end excluded.
 
 console.log(myn1);
-console.log("B" , myArr);
+console.log("B" , myHeros);
 
-const myn2 = myArr.splice(1 , 3)
+const myn2 = myHeros.splice(0 , 1) // rule: splice(1, 2) → start from index 1 and remove 2 elements
 console.log(myn2);
-console.log("C" , myArr);
+console.log("C" , myHeros);
 
 
 
