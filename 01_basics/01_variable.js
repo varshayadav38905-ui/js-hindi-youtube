@@ -11,7 +11,7 @@ accountCity = "banglore"
 console.log(accountId);
 
 
-//prefer to use var because of the issue of BLOCK SCOPE and Function Scope
+//prefer to not use var because of the issue of BLOCK SCOPE and Function Scope
 
 
 console.table([accountId,accountPassword,accountEmail,accountCity,accountState])
