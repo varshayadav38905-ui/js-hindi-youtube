@@ -65,7 +65,7 @@ h1{
     font-size: 1rem;
     color:white;
     font-weight: 700;
-    background: conic-gradient(#ed8ced var(--progress-degree, 40%), #283a28 0%);
+    background: conic-gradient(#ed8ced var(--progress-degree, 0%), #283a28 0%);
 }
 .circle span{
     position :relative;
